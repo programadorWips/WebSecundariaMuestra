@@ -1,0 +1,37 @@
+.cabezera{
+    height: 5em;
+}
+
+.miJumbo{
+    background-image: url("../img/Cabezera.jpg");
+    height: 20em;
+    background-size: 100% 100%;
+    
+}
+
+.contenedorPrincipal{
+    background-color: #790909;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.contenedorSecundario{
+    background-color: rgb(35, 61, 78);
+}
+
+.bordesCarrusel1{
+
+    border: #f1f1f1 3em solid !important;
+    border-radius: 3em 0em 0em 3em;
+
+}
+
+.bordesCarrusel2{
+
+    border: #f1f1f1 3em solid;
+    border-radius: 0em 3em 3em 0em;
+}
+
+body{
+    background-color: #f1f1f1;
+}
