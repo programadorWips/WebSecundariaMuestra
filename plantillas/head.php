@@ -55,15 +55,54 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="fas fa-exclamation"></i> Ayuda</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Documentos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Constancias</a>
-                    <a class="dropdown-item" href="#">Modelo de Cronogramas</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Permisos</a>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong2">
+                    <i class="fas fa-book-open"></i> Carta de Buena Conducta
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle2">Carta de buena conducta</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-fluid img-thumbnail documentos" src="<?php echo RUTA_IMG; ?>ConstanciaConducta.jpg" alt="Carta de buena">
+                                </div>
+                                <div class="modal-footer">
+                                    <p class="text-justify">Informacion referente a documentos de secundaria modelo actual.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong3">
+                    <i class="fas fa-book-open"></i> Constancia de Estudio
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle3" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle3">Constancia de Estudio</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-fluid img-thumbnail documentos" src="<?php echo RUTA_IMG; ?>ConstanciaEstudio.jpg" alt="Carta de buena">
+                                </div>
+                                <div class="modal-footer">
+                                    <p class="text-justify">Informacion referente a documentos de secundaria modelo actual.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -87,6 +126,8 @@
                             </button>
                         </div>
                         <div class="modal-body">
+
+                        <img src="<?php echo RUTA_IMG; ?>google.jpg" alt="">
                             <form action="<?php echo DATOS_LOGIN; ?>" method="post">
                                 <div class="form-group">
                                     <input type="text" name="usuarioL" id="usuarioL" required class="form-control form-control-lg" placeholder="V-23996773"/>
